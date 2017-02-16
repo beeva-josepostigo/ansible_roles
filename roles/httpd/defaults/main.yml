@@ -1,0 +1,5 @@
+---
+index_src: "roles/httpd/files/index.html"
+index_dest: "/var/www/html/"
+httpd_src: "roles/httpd/templates/httpd.j2"
+httpd_dest: "/etc/httpd/conf/httpd.conf"

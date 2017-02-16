@@ -1,0 +1,5 @@
+- name: Modify index.html
+  copy:
+    src: "{{ index_src }}"
+    dest: "{{ index_dest }}"
+
